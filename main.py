@@ -46,9 +46,9 @@ while True:
             else:
                 computer_choice = 'Papper'
             
-        time.sleep(4)
-        print('Computer has choosen ' + computer_choice)
-        print(f"you picked: {Choice_picked} \tV/s\t computer picked: {computer_choice}")
+                time.sleep(4)
+                print('Computer has choosen ' + computer_choice)
+                print(f"you picked: {Choice_picked} \tV/s\t computer picked: {computer_choice}")
 
             #consition for winning
         if (Choice_picked == 'R' and computer_pick =='R') or (computer_pick =='R' and Choice_picked=='R'):
